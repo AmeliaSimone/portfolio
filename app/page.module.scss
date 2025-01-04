@@ -1,0 +1,137 @@
+.home {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+
+  .backgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/images/fondo2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    z-index: -1;
+    filter: brightness(0.5);
+  }
+  
+  .content {
+    text-align: center;
+    color: white;
+    z-index: 1;
+    padding: 2rem;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.582) 0%, rgba(0, 0, 0, 0.514) 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    .title {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      font-family: "Montserrat", serif;
+      
+      
+      .greeting {
+        font-size: 1.5rem;
+        opacity: 0;
+        animation: fadeInUp 0.5s ease forwards;
+      }
+      
+      .name {
+        font-size: 4rem;
+        font-weight: bold;
+        opacity: 0;
+        animation: fadeInUp 0.5s ease forwards 0.2s;
+        font-family: "Indie Flower", serif;
+      }
+      
+      .role {
+        font-size: 2rem;
+        color: #a45ef3c5;
+        opacity: 0;
+        animation: fadeInUp 0.5s ease forwards 0.4s;
+      }
+    }
+    
+    .socialIcons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      
+      a {
+        color: white;
+        font-size: 2.5rem;
+        transition: color 0.3s ease, transform 0.3s ease;
+        
+        &:hover {
+          color: #a45ef3c5;
+          transform: translateY(-3px);
+        }
+      }
+    }
+    
+    .downloadButton {
+      display: inline-block;
+      padding: 1rem 2rem;
+      background: transparent;
+      border: 2px solid #a45ef3c5;
+      color: #a45ef3c5;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      opacity: 0;
+      animation: fadeInUp 0.5s ease forwards 0.6s;
+      
+      &:hover {
+        background: rgba(100, 255, 218, 0.1);
+        transform: translateY(-3px);
+      }
+    }
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    .content {
+      .title {
+        .name {
+          font-size: 3rem;
+        }
+        
+        .role {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}
+

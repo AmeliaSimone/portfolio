@@ -1,0 +1,102 @@
+.technologies {
+  min-height: calc(100vh - 70px);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .section {
+    margin-bottom: 3rem;
+
+    .sectionTitle {
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+      color: #a35ef3;
+    }
+  }
+
+  .techGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+
+    .techItem {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .techIcon {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+        color: #a35ef3;
+      }
+
+      .techName {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .progressBar {
+        width: 100%;
+        height: 10px;
+        background-color: #2d2d2d;
+        border-radius: 5px;
+        overflow: hidden;
+        margin-bottom: 0.5rem;
+
+        .progress {
+          height: 100%;
+          background-color: #a35ef3;
+          border-radius: 5px;
+        }
+      }
+
+      .percentage {
+        font-size: 1rem;
+        color: #a8b2d1;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .technologies {
+    padding: 6rem 1rem 1rem;
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    .section {
+      .sectionTitle {
+        font-size: 1.5rem;
+      }
+    }
+
+    .techGrid {
+      grid-template-columns: 1fr;
+
+      .techItem {
+        .techIcon {
+          font-size: 2rem;
+        }
+
+        .techName {
+          font-size: 1rem;
+        }
+
+        .percentage {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}
+
