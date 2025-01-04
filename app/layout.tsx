@@ -7,7 +7,7 @@ import { Header } from '../components/header/header'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Portfolio',
+  title: 'Portfolio Amelia Feliu',
   description: 'My professional portfolio',
 }
 
@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body className={inter.className}>
         <LanguageProvider>
           <main className="main-content">
