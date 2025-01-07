@@ -40,7 +40,9 @@ export function Header() {
   return (
     <header className={`${styles.header} ${isScrolled ? styles.scrolled : ""}`}>
       <nav className={styles.nav}>
-       
+        <Link href="/" className={styles.logo} onClick={closeMenu}>
+          Portfolio
+        </Link>
 
         {/* Desktop Menu */}
         <div className={styles.desktopMenu}>
