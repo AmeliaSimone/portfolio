@@ -31,7 +31,7 @@ export default function Home() {
         </div>
         
         <a 
-          href="../docs/CV-Amfeliu.pdf" 
+          href="../docs/CV.AmeliaF.pdf" 
           download 
           className={`${styles.downloadButton} animate-slideInFromBottom`}
         >

@@ -74,7 +74,7 @@ const translations = {
     "certifications.cert2": "Sorftware Testing - Specialisterne Spain 2023",
     "certifications.cert3": "Testing QA Manual - Coderhouse 2023",
     "certifications.download": "Download",
-    "education.title": "Eduaction",
+    "education.title": "Education",
     "education.edu1": "Web Development and Design - Duoc UC 2023",
     "education.edu2": "Enseñanza media completa - Liceo Insieme 2015",
     "education.edu3": "Enseñanza básica completa - Francisco Ramirez 2010",

@@ -24,7 +24,7 @@ export default function LanguagesCertifications() {
     { name: t("education.edu3"), file: "../docs/coderhouse.pdf" },
   ];
 
-  // Especificamos que `file` es un string
+  
   const handleDownload = (file: string): void => {
     const link = document.createElement("a");
     link.href = file;

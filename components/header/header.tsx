@@ -46,7 +46,6 @@ export function Header() {
 
         {/* Desktop Menu */}
         <div className={styles.desktopMenu}>
-          <Link href="/">{t("nav.home")}</Link>
           <Link href="/about">{t("nav.about")}</Link>
           <Link href="/experience">{t("nav.experience")}</Link>
           <Link href="/projects">{t("nav.projects")}</Link>
