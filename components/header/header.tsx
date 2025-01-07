@@ -50,6 +50,7 @@ export function Header() {
           <Link href="/about">{t("nav.about")}</Link>
           <Link href="/experience">{t("nav.experience")}</Link>
           <Link href="/projects">{t("nav.projects")}</Link>
+          <Link href="/technologies">{t("nav.technologies")}</Link>
           <Link href="/languages-certifications">
             {t("nav.languagesCertifications")}
           </Link>
@@ -104,6 +105,9 @@ export function Header() {
               </Link>
               <Link href="/projects" onClick={closeMenu}>
                 {t("nav.projects")}
+              </Link>
+              <Link href="/technologies" onClick={closeMenu}>
+                {t("nav.technologies")}
               </Link>
               <Link href="/languages-certifications" onClick={closeMenu}>
                 {t("nav.languagesCertifications")}

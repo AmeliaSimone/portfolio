@@ -1,6 +1,6 @@
 .languagesCertifications {
   min-height: calc(100vh - 70px);
-  padding: 2rem;
+  padding: 4rem;
   display: flex;
   flex-direction: column;
   max-width: 1200px;
@@ -70,7 +70,7 @@
         align-items: center;
 
         .languageName {
-          font-weight: bold;
+          font-weight: regular;
         }
 
         .languageLevel {
@@ -100,7 +100,27 @@
         }
       }
     }
+    .education {
+      ul li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     
+        .downloadButton {
+          background-color: #9d4ef8;
+          color: white;
+          border: none;
+          border-radius: 4px;
+          padding: 0.5rem 1rem;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+    
+          &:hover {
+            background-color: #7c3ec7;
+          }
+        }
+      }
+    }
   }
 }
 

@@ -21,15 +21,15 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    
+
     .logo {
       font-size: 1.5rem;
       font-weight: bold;
-      color: rgb(0, 0, 0);
+      color: white; // Cambié a blanco para mejorar la visibilidad
       text-decoration: none;
       transition: transform 0.3s ease;
       z-index: 1001;
-      
+
       &:hover {
         transform: scale(1.05);
       }
@@ -39,17 +39,17 @@
     .desktopMenu {
       display: none;
       gap: 2rem;
-      
+
       @media (min-width: 769px) {
         display: flex;
       }
-      
+
       a {
         color: white;
         text-decoration: none;
         position: relative;
         font-size: 1.1rem;
-        
+
         &::after {
           content: '';
           position: absolute;
@@ -60,9 +60,14 @@
           background: white;
           transition: width 0.3s ease;
         }
-        
+
         &:hover::after {
           width: 100%;
+        }
+
+        &:focus {
+          outline: 2px solid white;
+          outline-offset: 2px;
         }
       }
     }
@@ -73,11 +78,12 @@
       gap: 1rem;
       z-index: 1001;
     }
-    
+
     // Mobile Menu
     .mobileMenuOverlay {
       display: none;
       
+
       @media (max-width: 768px) {
         display: block;
         position: fixed;
@@ -89,14 +95,14 @@
         opacity: 0;
         visibility: hidden;
         transition: all 0.3s ease;
-        
+
         &.open {
           opacity: 1;
           visibility: visible;
         }
       }
     }
-    
+
     .mobileMenuContent {
       @media (max-width: 768px) {
         position: fixed;
@@ -105,28 +111,31 @@
         width: 75%;
         max-width: 300px;
         height: 100%;
-        background: #1a1a1a;
-        padding: 5rem 2rem 2rem;
+        background: #252525;
         transition: right 0.3s ease;
-        
+
         &.open {
           right: 0;
         }
       }
     }
-    
+
     .mobileMenuLinks {
+      background: #252525;
+      padding: 5rem 2rem 2rem;
+        transition: right 0.3s ease;
       @media (max-width: 768px) {
         display: flex;
         flex-direction: column;
-        gap: 1.5rem;
         
+        gap: 1.5rem;
+
         a {
           color: white;
           text-decoration: none;
           position: relative;
           font-size: 1.1rem;
-          
+
           &::after {
             content: '';
             position: absolute;
@@ -137,14 +146,19 @@
             background: white;
             transition: width 0.3s ease;
           }
-          
+
           &:hover::after {
             width: 100%;
+          }
+
+          &:focus {
+            outline: 2px solid white;
+            outline-offset: 2px;
           }
         }
       }
     }
-    
+
     .languageToggle {
       display: flex;
       align-items: center;
@@ -156,17 +170,22 @@
       border-radius: 4px;
       cursor: pointer;
       transition: all 0.3s ease;
-      
+
       &:hover {
         background: white;
         color: black;
       }
 
+      &:focus {
+        outline: 2px solid white;
+        outline-offset: 2px;
+      }
+
       .languageIcon {
-        font-size: 1.4rem; // Aumentamos ligeramente el tamaño
+        font-size: 1.4rem; // Ajustado para mejor visibilidad
       }
     }
-    
+
     .menuToggle {
       display: none;
       background: transparent;
@@ -176,17 +195,21 @@
       cursor: pointer;
       padding: 0.5rem;
       transition: transform 0.3s ease;
-      
+
       @media (max-width: 768px) {
         display: flex;
         align-items: center;
         justify-content: center;
       }
-      
+
       &.active {
         transform: rotate(180deg);
+      }
+
+      &:focus {
+        outline: 2px solid white;
+        outline-offset: 2px;
       }
     }
   }
 }
-
