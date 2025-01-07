@@ -17,7 +17,7 @@ const indieFlower = Indie_Flower({
 
 export const metadata: Metadata = {
   title: 'Portfolio Amelia Feliu',
-  description: 'My professional portfolio',
+  description: 'My professional portfolio :)',
 }
 
 export default function RootLayout({
