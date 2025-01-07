@@ -75,7 +75,7 @@ const translations = {
     "certifications.cert3": "Testing QA Manual - Coderhouse 2023",
     "certifications.download": "Download",
     "education.title": "Eduaction",
-    "education.edu1": "Desarrollo y diseño web - Duoc UC 2023",
+    "education.edu1": "Web Development and Design - Duoc UC 2023",
     "education.edu2": "Enseñanza media completa - Liceo Insieme 2015",
     "education.edu3": "Enseñanza básica completa - Francisco Ramirez 2010",
     "education.download": "Download",
@@ -94,8 +94,7 @@ const translations = {
     "home.download": "Descargar CV",
     "about.title": "Sobre Mí",
     "about.description":
-      "I am a graduate in Web Development and Design from Duoc UC, with a specialization in the creation and development of web applications and websites. My focus is on designing and developing modern, responsive, and high-performance interfaces that combine aesthetics with technical efficiency. I am dedicated to transforming concepts into effective digital solutions, blending creativity, innovation, and a strong technical foundation to deliver superior web experiences tailored to user needs and business objectives.",
-    "about.skill1.title": "Desarrollo Web",
+      "Soy profesional titulada en Desarrollo y Diseño Web en Duoc UC, con especialización en la creación y desarrollo de aplicaciones y sitios web. Mi enfoque se centra en el diseño y desarrollo de interfaces modernas, responsivas y de alto rendimiento, que fusionan la estética con la eficiencia técnica. Me dedico a transformar conceptos en soluciones digitales efectivas, combinando creatividad, innovación y una sólida base técnica para ofrecer experiencias web de calidad superior, adaptadas a las necesidades del usuario y los objetivos empresariales.",
     "about.skill1.description":
       "Experiencia en la creación de aplicaciones web responsivas y dinámicas utilizando tecnologías modernas.",
     "about.skill2.title": "Resolución de Problemas",
@@ -144,7 +143,7 @@ const translations = {
     "certifications.cert3": "Testing QA Manual - Coderhouse 2023",
     "certifications.download": "Descargar",
     "education.title": "Educación",
-    "education.edu1": "Web Development and Design - Duoc UC 2023",
+    "education.edu1": "Desarrollo y diseño web - Duoc UC 2023",
     "education.edu2": "Enseñanza media completa - Liceo Insieme 2015",
     "education.edu3": "Enseñanza básica completa - Francisco Ramirez 2010",
     "education.download": "Download",
