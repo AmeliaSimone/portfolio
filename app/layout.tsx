@@ -1,23 +1,14 @@
 import type { Metadata } from 'next'
+import { Montserrat } from 'next/font/google'
 import '../styles/globals.scss'
-import { Montserrat, Indie_Flower } from 'next/font/google'
+import { LanguageProvider } from '../context/language-context'
+import { Header } from '../components/header/header'
 
-const montserrat = Montserrat({ 
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-montserrat',
-})
-
-const indieFlower = Indie_Flower({ 
-  weight: '400',
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-indie-flower',
-})
+const montse = Montserrat({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Portfolio Amelia Feliu',
-  description: 'My professional portfolio :)',
+  description: 'My professional portfolio',
 }
 
 export default function RootLayout({
@@ -26,8 +17,15 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="es" className={`${montserrat.variable} ${indieFlower.variable}`}>
-      <body className={montserrat.className}>{children}</body>
+    <html lang="es">
+      <body className={montse.className}>
+        <LanguageProvider>
+          <main className="main-content">
+            <Header />
+            {children}
+          </main>
+        </LanguageProvider>
+      </body>
     </html>
   )
 }
