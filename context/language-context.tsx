@@ -40,7 +40,7 @@ const translations = {
     "experience.job1.period": "Jan - Aug 2024",
     "experience.job1.description":
       "I design landing pages and web elements in Figma, creating attractive and functional interfaces based on client requirements. I develop front-end with Next.js, TypeScript, and SCSS, ensuring optimal performance and consistent experiences. I implement responsive and accessible web structures with HTML, CSS, and Flexbox. I collaborate with teams to adjust designs according to feedback and project needs.",
-    "experience.job2.title": 'Academic internship"',
+    "experience.job2.title": 'Academic internship',
     "experience.job2.company": "Tesla Insurtech",
     "experience.job2.period": "Feb - Jun 2023",
     "experience.job2.description":
