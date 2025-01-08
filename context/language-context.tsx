@@ -24,7 +24,7 @@ const translations = {
     "home.download": "Download CV",
     "about.title": "About Me",
     "about.description":
-      "I am a professional graduate in Web Development and Design from Duoc UC, specializing in the creation and development of web applications and websites. My focus is on designing and developing modern, responsive, and high-performance interfaces that blend aesthetics with technical efficiency. I am dedicated to transforming concepts into effective digital solutions, combining creativity, innovation, and a solid technical foundation to deliver superior quality web experiences tailored to user needs and business objectives.",
+      "I am a graduate in Web Development and Design from Duoc UC, specializing in the creation and development of modern applications and websites. I focus on designing and building attractive, responsive, and high-performance interfaces, combining creativity and technical expertise to deliver digital experiences that excel in both aesthetics and functionality.<br/> <br/> With solid experience in UX/UI design, I create intuitive, practical, and user-centered solutions, ensuring that each project meets the goals of both the client and the end user. Additionally, I have developed a strong interest in QA, supported by specialized courses, which has allowed me to incorporate a detail-oriented and quality-driven approach into all stages of development.<br/> <br/>My goal is to transform ideas into effective digital solutions, integrating design, development, and quality assurance to deliver results that meet high standards and align with the specific needs of each project.",
     "about.skill1.title": "Web Development",
     "about.skill1.description":
       "Expertise in creating responsive and dynamic web applications using modern technologies.",
@@ -39,12 +39,12 @@ const translations = {
     "experience.job1.company": "Polite SPA",
     "experience.job1.period": "Jan - Aug 2024",
     "experience.job1.description":
-      "I design landing pages and web elements in Figma, creating attractive and functional interfaces based on client requirements. I develop front-end with Next.js, TypeScript, and SCSS, ensuring optimal performance and consistent experiences. I implement responsive and accessible web structures with HTML, CSS, and Flexbox. I collaborate with teams to adjust designs according to feedback and project needs.",
+      "Design of landing pages and web elements in Figma, creating visually appealing and functional interfaces based on client requirements. Front-end development with Next.js, TypeScript and SCSS, ensuring optimal performance and consistent user experiences. Implementation of responsive and accessible web structures using HTML, CSS, and Flexbox. Collaboration with teams to refine designs according to feedback and project needs.",
     "experience.job2.title": 'Academic internship',
     "experience.job2.company": "Tesla Insurtech",
     "experience.job2.period": "Feb - Jun 2023",
     "experience.job2.description":
-      "I maintained and updated insurance websites using WordPress, PHP, and MySQL, managing dynamic content. I used HTML, CSS, and Bootstrap to ensure responsive and functional designs. I implemented structural and stylistic improvements to optimize the user experience.",
+      "Maintenance and updates of insurance websites using WordPress, PHP, and MySQL, managing dynamic content. Use of HTML, CSS, and Bootstrap to ensure responsive and functional designs. Structural and stylistic improvements were implemented to optimize the user experience.",
     "projects.title": "My Projects",
     "projects.soon": "More projects coming soon...",
     "projects.viewProject": "View Project",
@@ -96,7 +96,8 @@ const translations = {
     "home.download": "Descargar CV",
     "about.title": "Sobre Mí",
     "about.description":
-      "Soy profesional titulada en Desarrollo y Diseño Web en Duoc UC, con especialización en la creación y desarrollo de aplicaciones y sitios web. Mi enfoque se centra en el diseño y desarrollo de interfaces modernas, responsivas y de alto rendimiento, que fusionan la estética con la eficiencia técnica. Me dedico a transformar conceptos en soluciones digitales efectivas, combinando creatividad, innovación y una sólida base técnica para ofrecer experiencias web de calidad superior, adaptadas a las necesidades del usuario y los objetivos empresariales.",
+      "Soy una profesional titulada en Desarrollo y Diseño Web en Duoc UC, especializada en la creación y desarrollo de aplicaciones y sitios web modernos. Me dedico a diseñar y construir interfaces atractivas, responsivas y de alto rendimiento, combinando creatividad y técnica para ofrecer experiencias digitales que destacan tanto por su estética como por su funcionalidad. <br/> <br/>Con una sólida experiencia en diseño UX/UI, creo soluciones intuitivas, prácticas y centradas en el usuario, asegurando que cada proyecto cumpla con los objetivos tanto del cliente como del usuario final. Además, he desarrollado un interés particular en el área de QA, respaldado por cursos especializados, lo que me ha permitido integrar un enfoque detallista y orientado a la calidad en todos los procesos de desarrollo.<br/><br/> Mi objetivo es transformar ideas en soluciones digitales efectivas, uniendo diseño, desarrollo y control de calidad para garantizar resultados que cumplan con altos estándares y se ajusten a las necesidades específicas de cada proyecto.",
+      "about.skill1.title": "Desarrollo Web",
     "about.skill1.description":
       "Experiencia en la creación de aplicaciones web responsivas y dinámicas utilizando tecnologías modernas.",
     "about.skill2.title": "Resolución de Problemas",
@@ -110,12 +111,12 @@ const translations = {
     "experience.job1.company": "Polite SPA",
     "experience.job1.period": "Enero - Agosto 2024",
     "experience.job1.description":
-      "Diseño landing pages y elementos web en Figma, creando interfaces atractivas y funcionales basadas en los requisitos del cliente. Desarrollo front-end con Next.js, TypeScript y SCSS, garantizando rendimiento óptimo y experiencias consistentes. Implemento estructuras web responsivas y accesibles con HTML, CSS y Flexbox. Colaboro con equipos para ajustar diseños según feedback y necesidades del proyecto.",
+      "Diseño de landing pages y elementos web en Figma, creando interfaces atractivas y funcionales basadas en los requisitos del cliente. Desarrollo  front-end con Next.js, TypeScript y SCSS, garantizando rendimiento óptimo y experiencias consistentes. Implemento de estructuras web responsivas y accesibles con HTML, CSS y Flexbox. Colaboración con equipos para ajustar diseños según feedback y necesidades del proyecto.",
     "experience.job2.title": "Práctica Profesional",
     "experience.job2.company": "Tesla Insurtech",
     "experience.job2.period": "Febrero - Junio 2023",
     "experience.job2.description":
-      "Mantuve y actualicé sitios web de seguros con WordPress, PHP y MySQL, gestionando contenido dinámico. Utilicé HTML, CSS y Bootstrap para asegurar diseños responsivos y funcionales. Implementé mejoras estructurales y de estilo para optimizar la experiencia del usuario.",
+      "Mantenimiento y actualización de sitios web de seguros utilizando WordPress, PHP y MySQL, gestionando contenido dinámico. Uso de HTML, CSS y Bootstrap para garantizar diseños responsivos y funcionales. Se implementaron mejoras estructurales y de estilo para optimizar la experiencia del usuario.",
     "projects.title": "Mis Proyectos",
     "projects.soon": "Más proyectos proximamente...",
     "projects.viewProject": "Ver Proyecto",
@@ -166,6 +167,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   const toggleLanguage = () => {
     setLanguage((prev) => (prev === "es" ? "en" : "es"));
   };
+  
 
   const t = (key: string) => {
     return (

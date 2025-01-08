@@ -3,8 +3,8 @@
 import { useLanguage } from '../../context/language-context'
 import styles from './technologies.module.scss'
 import { useEffect, useState } from 'react'
-import { FaReact, FaHtml5, FaCss3Alt,FaPhp, FaFigma,FaSass } from 'react-icons/fa'
-import { SiTypescript, SiNextdotjs, SiMongodb, SiMysql, SiAdobexd } from 'react-icons/si'
+import { FaReact, FaHtml5, FaCss3Alt,FaPhp, FaFigma,FaSass,FaJs,FaWordpress,FaBootstrap } from 'react-icons/fa'
+import { SiTypescript, SiNextdotjs, SiMongodb, SiMysql, SiAdobexd,SiAdobeillustrator } from 'react-icons/si'
 
 interface Technology {
   name: string
@@ -27,6 +27,9 @@ export default function Technologies() {
       technologies: [
         { name: 'HTML5', icon: FaHtml5, percentage: 80 },
         { name: 'CSS3', icon: FaCss3Alt, percentage: 70 },
+        { name: 'Bootstrap', icon: FaBootstrap, percentage: 70 },
+        { name: 'Javascript', icon: FaJs, percentage: 65 },
+        { name: 'Wordpress', icon: FaWordpress, percentage: 65 },
         { name: 'React', icon: FaReact, percentage: 60 },
         { name: 'Next.js', icon: SiNextdotjs, percentage: 60 },
         { name: 'TypeScript', icon: SiTypescript, percentage: 50 },
@@ -46,6 +49,7 @@ export default function Technologies() {
       technologies: [
         { name: 'Figma', icon: FaFigma, percentage: 65 },
         { name: 'Adobe XD', icon: SiAdobexd, percentage: 60 },
+        { name: 'Illustrator', icon: SiAdobeillustrator, percentage: 60 },
       ],
     },
   ]
