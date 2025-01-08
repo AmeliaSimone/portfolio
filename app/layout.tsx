@@ -8,7 +8,6 @@ const montse = Montserrat({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Portfolio Amelia Feliu',
-  description: 'My professional portfolio',
 }
 
 export default function RootLayout({

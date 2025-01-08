@@ -41,7 +41,7 @@ export function Header() {
     <header className={`${styles.header} ${isScrolled ? styles.scrolled : ""}`}>
       <nav className={styles.nav}>
         <Link href="/" className={styles.logo} onClick={closeMenu}>
-          Portfolio
+          <img src="/images/logo.png" alt="" />
         </Link>
 
         {/* Desktop Menu */}
@@ -93,9 +93,6 @@ export function Header() {
             onClick={(e) => e.stopPropagation()}
           >
             <div className={styles.mobileMenuLinks}>
-              <Link href="/" onClick={closeMenu}>
-                {t("nav.home")}
-              </Link>
               <Link href="/about" onClick={closeMenu}>
                 {t("nav.about")}
               </Link>
