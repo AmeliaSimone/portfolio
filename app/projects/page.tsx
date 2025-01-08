@@ -26,6 +26,12 @@ export default function Projects() {
       image: '/images/serefimera.png',
       link: 'https://serefimera.netlify.app/',
     },
+    {
+      title: t('projects.project4.title'),
+      description: t('projects.project4.description'),
+      image: '/images/banco.png',
+      link: 'https://bancochile.netlify.app/',
+    },
   ]
 
   return (
@@ -53,6 +59,7 @@ export default function Projects() {
           </div>
         ))}
       </div>
+      <h3>{t('projects.soon')}</h3>
     </div>
   )
 }

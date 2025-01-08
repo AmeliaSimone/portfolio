@@ -46,6 +46,7 @@ const translations = {
     "experience.job2.description":
       "I maintained and updated insurance websites using WordPress, PHP, and MySQL, managing dynamic content. I used HTML, CSS, and Bootstrap to ensure responsive and functional designs. I implemented structural and stylistic improvements to optimize the user experience.",
     "projects.title": "My Projects",
+    "projects.soon": "More projects coming soon...",
     "projects.viewProject": "View Project",
     "projects.project1.title": "Landing page Serviclick",
     "projects.project1.description": "Website built with Next.js, TypeScript, and SCSS (www.serviclick.cl)",
@@ -53,6 +54,8 @@ const translations = {
     "projects.project2.description": "Serviclick alliance page made with Next.js, TypeScript, and SCSS. (Desktop Version)",
     "projects.project3.title": "Landing page SerEfimera",
     "projects.project3.description": "Catalog-type page for SMEs made with HTML, CSS, and JavaScript.",
+    "projects.project4.title": "Landing page BancoChile",
+    "projects.project4.description": "Serviclick alliance page made with Next.js, TypeScript, and SCSS. (Desktop Version)",
     "technologies.title": "Technologies I Use",
     "technologies.frontend": "Frontend",
     "technologies.databases": "Databases",
@@ -76,8 +79,7 @@ const translations = {
     "certifications.download": "Download",
     "education.title": "Education",
     "education.edu1": "Web Development and Design - Duoc UC 2023",
-    "education.edu2": "Enseñanza media completa - Liceo Insieme 2015",
-    "education.edu3": "Enseñanza básica completa - Francisco Ramirez 2010",
+    "education.edu2": "High School complete - Liceo Insieme 2015",
     "education.download": "Download",
     "nav.languagesCertifications": "Education",
   },
@@ -115,6 +117,7 @@ const translations = {
     "experience.job2.description":
       "Mantuve y actualicé sitios web de seguros con WordPress, PHP y MySQL, gestionando contenido dinámico. Utilicé HTML, CSS y Bootstrap para asegurar diseños responsivos y funcionales. Implementé mejoras estructurales y de estilo para optimizar la experiencia del usuario.",
     "projects.title": "Mis Proyectos",
+    "projects.soon": "Más proyectos proximamente...",
     "projects.viewProject": "Ver Proyecto",
     "projects.project1.title": "Landing page Serviclick",
     "projects.project1.description":
@@ -125,6 +128,9 @@ const translations = {
     "projects.project3.title": "Landing page SerEfimera",
     "projects.project3.description":
       "Pagina tipo catalogo para pyme hecha con HTML, CSS Y Javascript.",
+      "projects.project4.title": "Landing page BancoChile",
+    "projects.project4.description":
+      "Pagina alianza de Serviclick hecha con Next.js, Typescript y SCSS. (Desktop Version)",
     "technologies.title": "Tecnologías que utilizo",
     "technologies.frontend": "Frontend",
     "technologies.databases": "Bases de Datos",
@@ -145,7 +151,6 @@ const translations = {
     "education.title": "Educación",
     "education.edu1": "Desarrollo y diseño web - Duoc UC 2023",
     "education.edu2": "Enseñanza media completa - Liceo Insieme 2015",
-    "education.edu3": "Enseñanza básica completa - Francisco Ramirez 2010",
     "education.download": "Download",
     "nav.languagesCertifications": "Educación",
   },

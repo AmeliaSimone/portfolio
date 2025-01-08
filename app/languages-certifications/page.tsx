@@ -21,7 +21,7 @@ export default function LanguagesCertifications() {
   const education = [
     { name: t("education.edu1"), file: "../docs/udemy.pdf" },
     { name: t("education.edu2"), file: "../docs/specialisterne.pdf" },
-    { name: t("education.edu3"), file: "../docs/coderhouse.pdf" },
+    
   ];
 
   
@@ -62,7 +62,7 @@ export default function LanguagesCertifications() {
         </div>
 
         <div
-          className={`${styles.section} ${styles.languages} animate-slideInFromLeft`}
+          className={`${styles.section} ${styles.languages} animate-slideInFromRight`}
         >
           <h3>
             <FaLanguage className={styles.icon} /> {t("languages.title")}
